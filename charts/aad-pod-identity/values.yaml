@@ -179,7 +179,7 @@ nmi:
   micNamespace: ""
 
   # Override http liveliness probe port (default is 8080)
-  probePort: "8085"
+  probePort: ""
 
   # Override number of retries in NMI to find assigned identity in CREATED state (default is 16)
   retryAttemptsForCreated: ""
